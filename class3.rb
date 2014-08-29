@@ -15,16 +15,6 @@ class Person
   @name = value
  end
 end
-
-puts "=========="
-class Person
- def name
-  return @name
- end
- def name=(value)
-  @name = value
- end
-end
 john = Person.new
 john.name = "John"
 p john.name #=> John
